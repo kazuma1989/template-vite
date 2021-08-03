@@ -1,7 +1,7 @@
 # Vite template
 
 ```console
-degit kazuma1989/template-vite
+npx degit kazuma1989/template-vite
 ```
 
 ビルドして使うには次のコマンドを実行してください。10 秒ほどでインストールとビルドが終わります。
