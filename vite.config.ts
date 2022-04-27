@@ -1,3 +1,4 @@
+/// <reference types="vitest" />
 import react from "@vitejs/plugin-react"
 import { defineConfig, Plugin } from "vite"
 
@@ -47,5 +48,10 @@ export default defineConfig(async ({ command, mode }) => {
       // type-check
       checkerPlugin,
     ],
+
+    // Vitest
+    test: {
+      setupFiles: ["./src/test.setup.ts"],
+    },
   }
 })

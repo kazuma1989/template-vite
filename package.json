@@ -15,7 +15,7 @@
     "start": "vite serve",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "uvu --require esbuild-register ./src/ \\.test.ts",
+    "test": "vitest run",
     "format": "prettier --write \"./{public,src}/**/*.{css,html,js,ts,tsx}\"",
     "lint": "eslint \"./src/**/*.{ts,tsx}\""
   },
@@ -35,7 +35,6 @@
     "@types/react-dom": "18.0.x",
     "@typescript-eslint/eslint-plugin": "5.21.x",
     "@typescript-eslint/parser": "5.21.x",
-    "esbuild-register": "3.3.x",
     "eslint": "8.14.x",
     "eslint-config-prettier": "8.5.x",
     "eslint-plugin-react": "7.29.x",
@@ -43,7 +42,7 @@
     "prettier": "2.6.x",
     "prettier-plugin-organize-imports": "2.3.x",
     "typescript": "4.6.x",
-    "uvu": "0.5.x",
-    "vite-plugin-checker": "0.4.x"
+    "vite-plugin-checker": "0.4.x",
+    "vitest": "0.10.x"
   }
 }
