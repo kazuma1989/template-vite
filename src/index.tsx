@@ -1,13 +1,13 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import { StrictMode } from "react"
+import { createRoot } from "react-dom/client"
 import { SWRConfig } from "swr"
 import { Router } from "wouter"
 import { App } from "./App"
 import "./color.css"
 import "./global.css"
 
-ReactDOM.render(
-  <React.StrictMode>
+createRoot(globalThis.document.getElementById("root")!).render(
+  <StrictMode>
     <SWRConfig
       value={{
         revalidateOnFocus: false,
@@ -21,7 +21,5 @@ ReactDOM.render(
         <App />
       </Router>
     </SWRConfig>
-  </React.StrictMode>,
-
-  globalThis.document.getElementById("root")
+  </StrictMode>
 )
