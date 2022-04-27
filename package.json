@@ -28,6 +28,7 @@
     "wouter": "2.7.x"
   },
   "devDependencies": {
+    "@tsconfig/vite-react": "1.0.x",
     "@types/react": "18.0.x",
     "@types/react-dom": "18.0.x",
     "@typescript-eslint/eslint-plugin": "5.21.x",
