@@ -1,8 +1,12 @@
 {
   "recommendations": [
+    // Prettier
     "esbenp.prettier-vscode",
+
+    // ESLint
     "dbaeumer.vscode-eslint",
-    "jpoissonnier.vscode-styled-components",
-    "msjsdiag.debugger-for-chrome"
+
+    // CSS in JS syntax
+    "styled-components.vscode-styled-components"
   ]
 }
