@@ -2,8 +2,9 @@
 {
   "extends": "@tsconfig/vite-react/tsconfig.json",
 
-  // 特定のファイルだけを対象にする。
-  "include": ["./src/**/*", "./vite.config.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }],
+
+  "include": ["./src/**/*"],
 
   "compilerOptions": {
     "types": ["vite/client"],
