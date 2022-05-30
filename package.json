@@ -33,16 +33,16 @@
     "@types/node": "16.x.x",
     "@types/react": "18.0.x",
     "@types/react-dom": "18.0.x",
-    "@typescript-eslint/eslint-plugin": "5.21.x",
-    "@typescript-eslint/parser": "5.21.x",
-    "eslint": "8.14.x",
+    "@typescript-eslint/eslint-plugin": "5.26.x",
+    "@typescript-eslint/parser": "5.26.x",
+    "eslint": "8.16.x",
     "eslint-config-prettier": "8.5.x",
-    "eslint-plugin-react": "7.29.x",
+    "eslint-plugin-react": "7.30.x",
     "eslint-plugin-react-hooks": "4.5.x",
     "prettier": "2.6.x",
     "prettier-plugin-organize-imports": "2.3.x",
-    "typescript": "4.6.x",
+    "typescript": "4.7.x",
     "vite-plugin-checker": "0.4.x",
-    "vitest": "0.10.x"
+    "vitest": "0.13.x"
   }
 }
