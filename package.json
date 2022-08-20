@@ -8,8 +8,8 @@
     "url": "https://github.com/kazuma1989/template-vite"
   },
   "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.10.0"
+    "node": ">=18.0.0",
+    "npm": ">=8.6.0"
   },
   "scripts": {
     "start": "vite serve",
