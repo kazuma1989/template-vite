@@ -7,7 +7,7 @@
     {
       "name": "Launch Chrome",
       "request": "launch",
-      "type": "pwa-chrome",
+      "type": "chrome",
       "runtimeArgs": ["-incognito"],
       "url": "http://localhost:3000"
     },
@@ -15,7 +15,7 @@
     {
       "name": "Launch Edge",
       "request": "launch",
-      "type": "pwa-msedge",
+      "type": "msedge",
       "runtimeArgs": ["-inprivate"],
       "url": "http://localhost:3000"
     }
